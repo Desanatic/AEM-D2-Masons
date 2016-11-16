@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured">
+    <content jcr:primaryType="nt:unstructured">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs jcr:primaryType="nt:unstructured">
+                <items jcr:primaryType="nt:unstructured">
+                    <featured
+                            sling:resourceType="granite/ui/components/foundation/section"
+                            cq:showOnCreate="false"
+                            jcr:title="Featured"
+                            jcr:primaryType="nt:unstructured"
+                            sling:orderBefore="thumbnail">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column sling:resourceType="granite/ui/components/foundation/container"
+                                    jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <damImage
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                            rootPath="/content/dam"
+                                            name="./featuredImage"
+                                            fieldLabel="Featured Image"
+                                            emptyText="Featured Image"
+                                            rel="preview-image"/>
+                                    <preview
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ea-ng/components/form/previewDamImage"
+                                            propertyToPreview="featuredImage"/>
+                                </items>
+                            </column>
+                        </items>
+                        <layout
+                                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                margin="false"
+                                jcr:primaryType="nt:unstructured"/>
+                    </featured>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
