@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
     <modelVersion>4.0.0</modelVersion>
     <!-- ====================================================================== -->
     <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
@@ -20,6 +20,12 @@
     <name>Aem Masson D2-D4 [Core]</name>
 
     <dependencies>
+        <dependency>
+            <groupId>com.adobe.granite</groupId>
+            <artifactId>com.adobe.granite.workflow.api</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
@@ -100,11 +106,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                 <configuration>
+                <configuration>
                     <excludePackageNames>
                         *.impl
                     </excludePackageNames>
-                 </configuration>
+                </configuration>
             </plugin>
         </plugins>
     </build>
