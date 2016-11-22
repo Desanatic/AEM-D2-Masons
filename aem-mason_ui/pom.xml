@@ -19,13 +19,6 @@
     <packaging>content-package</packaging>
     <name>Aem Masson D2-D4 [UI]</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>pro.aem.mason-bundle</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
     <build>
         <resources>
             <resource>
