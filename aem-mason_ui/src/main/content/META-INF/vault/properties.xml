@@ -8,6 +8,6 @@
 <entry key="packageFormatVersion">2</entry>
 <entry key="description">Aem Masson D2-D4 Package</entry>
 <entry key="group">Aem Masson D2-D4</entry>
-<entry key="name">pro.aem.mason-content</entry>
-<entry key="path">/etc/packages/Aem Masson D2-D4/pro.aem.mason-content-1.0-SNAPSHOT.zip</entry>
+<entry key="name">pro.aem.mason-ui</entry>
+<entry key="path">/etc/packages/Aem Masson D2-D4/pro.aem.mason-ui-1.0-SNAPSHOT.zip</entry>
 </properties>
