@@ -1,0 +1,16 @@
+<section class="component-name" data-sly-use.example="example.js">
+<pre>
+<b>This component represent example of USE-API AEM feature.
+Include "example.js" through sightly "data-sly-use" as result
+component will be print:
+    page title,
+    page description,
+    constant text from js file,
+    current date at moment opening page with this component.</b>
+
+<b>Page title:</b> ${example.title}
+<b>Page description:</b> ${example.description || "N/A"}
+<b>Text for example:</b> ${example.textForExample}
+<b>Current data:</b> ${example.currentDate || "N/A"}
+</pre>
+</section>
