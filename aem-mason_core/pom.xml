@@ -25,6 +25,10 @@
             <artifactId>cq-workflow-api</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.day.cq</groupId>
+            <artifactId>cq-replication</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
         </dependency>

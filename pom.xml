@@ -43,6 +43,12 @@
                 <scope>provided</scope>
             </dependency>
             <dependency>
+                <groupId>com.day.cq</groupId>
+                <artifactId>cq-replication</artifactId>
+                <version>5.4.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.core</artifactId>
                 <version>4.2.0</version>
@@ -250,5 +256,6 @@
     <modules>
         <module>aem-mason_core</module>
         <module>aem-mason_ui</module>
+        <module>aem-mason_extras</module>
     </modules>
 </project>
