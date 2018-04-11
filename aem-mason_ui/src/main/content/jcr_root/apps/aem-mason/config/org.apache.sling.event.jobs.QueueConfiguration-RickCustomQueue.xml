@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="sling:OsgiConfig"
+          queue.name="Rick_Custom_Queue_FROM_CODE"
+          queue.priority="NORM"
+          queue.maxparallel="{Double}4624633867356078080"
+          queue.topics="[fast/event/adventure/part/2]"
+          queue.retries="{Long}10"
+          queue.preferRunOnCreationInstance="{Boolean}false"
+          queue.threadPoolSize="{Long}0"
+          queue.retrydelay="{Long}2000"
+          service.ranking="{Long}0"
+          queue.type="ORDERED"
+          queue.keepJobs="{Boolean}true"/>
